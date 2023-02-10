@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:paddingBottom="80dp"
     tools:context=".HomeFragment">
-    <!-- TODO: Update blank fragment layout -->
+
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -133,6 +133,19 @@
 
 
         </LinearLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:foregroundGravity="center"
+            android:overScrollMode="never">
+
+        </androidx.viewpager.widget.ViewPager>
+
+
+
 
 
 
