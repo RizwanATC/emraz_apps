@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registration."
+                android:textColor="@color/lavender"
+                android:textSize="40dp">
+
+            </TextView>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:paddingLeft="20dp"
+                    android:background="@drawable/round_corner"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:hint="First Name">
+                </EditText>
+
+            </LinearLayout>
+            <EditText
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/round_corner"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:inputType="textEmailAddress"
+                android:hint="E-mail Address">
+            </EditText>
+            <EditText
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/round_corner"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:inputType="textPassword"
+                android:hint="Password">
+            </EditText>
+            <EditText
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/round_corner"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:inputType="textPassword"
+                android:hint="Confirm Password">
+            </EditText>
+            <CheckBox
+                android:layout_marginTop="50dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="By registering, i have read agreed to the Terms of Use and the Privacy Policy">
+
+            </CheckBox>
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Register"
+                android:textAllCaps="false">
+
+            </Button>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Already Resgitered!">
+                </TextView>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Login Me.!">
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
